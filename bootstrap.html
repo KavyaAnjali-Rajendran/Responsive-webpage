@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>responsive-image</title>
+  <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.css">
+<style>
+  .bg-image{
+    top:0;
+    left:0;
+    z-index:-5;
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    border-style: hidden;
+    filter:brightness(0.8);
+  }
+  .header{
+    max-width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .para{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width:50px;
+  }
+  .card-cover{   
+    padding-top:300px;
+  }
+  .conecttous{
+    border-radius:15px;
+    border-style: hidden;
+    width:18rem;
+    height:18rem;
+  }    
+</style>
+<body>
+  <!--navbar-->
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">About us</a>
+          <a class="nav-link" href="#">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--backgroundimage-->
+  <h1 class="header text-white">IRON AN STEEL INDUSTRY IN INDIA</h1>
+  <p class="text-white" style="max-width: 200px;"> The Iron and steel industry in India is among the most important industries within the country</p>
+  <button class="btn btn-primary">More about us </button>
+  <button class="btn btn-outline-secondary">Live demo</button>
+
+  <img src="https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=873&q=80" class="img-thumbnail bg-image" alt="image">
+</div>
+<!-- cards-->
+<div class="container card-cover">
+  <div class="row justify-content-md-center">
+    <div class="col col-md-6 col-lg-4">
+      <div class="container">
+        <div class="card" style="width:18rem">
+          <img class="card-image-top" style="height:18rem" src="https://i1.wp.com/www.frebers.com/wp-content/uploads/2020/06/Digital-Marketing-Logo.jpg?fit=1850%2C1450&ssl=1">
+          <div class="card-body">
+            <h5 class="card-title" style="justify-content:center;">Digital Marketing</h5>     
+            <p class="card-text">Market Static Growth & Analysis</p>
+          </div>
+        </div>
+        </div>
+    </div>
+    <div class=" col-md-6 col-lg-4">
+      <div class="container">
+        <div class="card" style="width:18rem">
+          <img class="card-image-top" style="height:18rem" src="https://www.laoistoday.ie/wp-content/uploads/2018/02/Financial-Services.jpg">
+          <div class="card-body">
+            <h5 class="card-title" style="justify-content:center;">Financial Services</h5>     
+            <p class="card-text">Free Consultation & Bank Loan</p>
+          </div>  
+        </div>  
+      </div>
+    </div>
+    <div class="col col-lg-4">
+      <div class="container ">
+        <div class="card" style="width:18rem">
+          <img class="card-image-top" style="height:18rem" src="https://tse4.mm.bing.net/th?id=OIP.V86xFF2m6t0xwzPkVwD4XAHaE8&pid=Api&P=0&h=180">
+          <div class="card-body">
+            <h5 class="card-title" style="justify-content:center;">Online Marketing</h5>     
+            <p class="card-text">Targeted Audience & Alexa Rank</p>
+          </div>  
+        </div>  
+      </div>
+      </div>
+    </div>
+  </div>
+  <!-- container image & content-->
+  <div class="container-fluid" style="padding-top:80px;">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-4 justify-content-sm-center">
+          <img src="https://s-i.huffpost.com/gen/1137976/images/o-COLLABORATION-facebook.jpg"alt="connect to us image" class=" img-thumbnail conecttous">
+        </div>
+        <div class="col-lg-4 justify-content-sm-center">
+            <div>
+              <h3 style="color:rgb(56, 56, 135);">ABOUT US</h3>
+                <h4> Best Online Agency With Best Rating</h4>
+                <p> There are many variations of passages of Lorem Ipsum available,
+                  <br> but the majority have suffored alteration in some form, by injected humor</p>
+                <p style="font-weight:200;"> if you are going to use a passage of Lorum passage ,you need to be sure of the content</p>
+                <button class="btn btn-success"> Learn More</button>
+              </div>
+        </div> 
+      </div>
+    </div>  
+    <!--image content ACHIEVEMENT--> 
+    <div class="container-fluid" style="padding-top: 50px;">
+      <div class="row justify-content-md-center">
+        <div class="col-lg-4">
+             <div>
+              <div class="text-danger bold;">ACHIEVEMENT</div>
+                <h6> Over hundrad Completed trusted Work Counting</h6>
+                <p style="font-weight:200;">if you are going to use a passage of Lorum passage ,you need to be sure of the content.There are many variations of passages of Lorem Ipsum available,
+                  but the majority have suffored alteration in some form, by injected humor </p>
+              </div>
+            </div>
+            <div class="col-lg-4 ">
+              <img src="https://aribaskar-designs.netlify.app/Group%204.svg" style="width:100% ">
+            </div> 
+          </div>
+    </div>
+  
+  <div class="cointainer">
+    <h3 class="text-info">All Projects</h3>
+    <div class="row">
+      <div class="col-sm-10">
+        <h4 class="text-dark-emphasis"> Project Gallery</h4>
+      </div>
+      <div class="col-sm-2">
+        <button class=" btn btn-success">View gallery</button>
+      </div>
+    </div>
+    <!--row of images-->
+  <div class="container-fluid  " style="padding-bottom: 40px;" >
+      <div class=" row justify-content-md-center">
+        <div class=" col-12 col-md-6 col-lg-4 col-xxl-3">
+           <img class="img-thumbnail conecttous" src="https://partners.wsj.com/sap/experience-management-in-action/wp-content/uploads/sites/469/2020/05/1200x628_Construction.jpg?resize=1200%2C628">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3">
+           <img class="img-thumbnail conecttous"  src="http://rg-group.co.uk/wp-content/uploads/2018/08/Construction-Industry.jpg">
+        </div>
+        <div class=" col-12  col-md-6 col-lg-4 col-xxl-3">
+          <img class="img-thumbnail conecttous" src="https://bimaplus.org/wp-content/uploads/2016/03/bim-news2.jpg">
+        </div>
+        <div class=" col-12 col-md-6 col-xxl-3">
+           <img  class="img-thumbnail conecttous" src="https://www.insurancejournal.com/wp-content/uploads/2014/01/construction.jpg">
+        </div>
+      </div>
+    </div> 
+ </div>
+<!-- Footer-->
+<ul class="list-inline" style="border: none;">
+  <h2 class="text-center text-dark text-center" style="padding-bottom: 10px;" >Subscribe Newsletter and get<br>
+    all latest released News</h2>
+  <div class="text-center text-dark text-center">Grow your Business & boost up sale with best online<br>
+    agencies with us called ctreme services</div>
+  <ul class="list-inline" ></ul>
+    <li class="web"  style="text-align:center;">
+      <button class="btn btn-primary" style="border-width:4px;" >
+        Submit 
+      </button></li>
+ </ul>
+</ul>
+<footer class="container-fluid end">
+  <div class="container text-center">
+    <div class="row-cols-md-2 row-cols-lg-4 gx-2">
+      <div class="col">
+        <h4>About</h4>
+        <h5>career</h5>
+        <h5>studios</h5>
+      </div>
+      <div class="col">
+        <h4>PS5</h4>
+        <h5>PSS4</h5>
+        <h5>PS VR2</h5>
+        <h5>Accesories</h5>
+      </div>
+      <div class="col">
+        <h4>Services</h4>
+        <h5>PS</h5>
+        <h5>PS -VR2</h5>
+        <h5>Access</h5>
+      </div>
+      <div class="col ">
+        <h4>More</h4>
+        <h5>PS</h5>
+        <h5>PS -VR2</h5>
+        <h5>Access</h5>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="bootstrap-5.3.0-dist/js/bootstrap.js"></script>
+</body>
+</html>
